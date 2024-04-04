@@ -11,7 +11,9 @@ function App() {
     <Course/>
     <Teacher/>
     <Contact/>
+    
     <Footer/>
+    
    </div>
   )
 }

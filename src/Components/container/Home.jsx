@@ -37,9 +37,11 @@ const Home = () => {
             officia sit vitae quo, eum similique?
           </p>
           <div className="mt-6">
+            <a href="https://forms.visme.co/formsPlayer/n08jevkn-untitled-project">
             <button className="px-6 py-3 font-bold text-white bg-Teal rounded-lg mr-4 text-sm">
               Get Started
             </button>
+            </a>
             <button className="px-6 py-3 font-bold border border-solid border-gray rounded-lg text-sm">
               Discover
             </button>

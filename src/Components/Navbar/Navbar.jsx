@@ -3,6 +3,7 @@ import { navLinks } from '../../Data'
 import { HiMenuAlt1, HiX } from "react-icons/hi"
 import NavLink from './NavLink'
 import MobileNavLinks from './MobileNavLinks'
+import Form from '../container/Form'
 export default function Navbar() {
   const [toggle, setToggle] = useState(false);
   const [active,setActive]= useState(null);
@@ -23,6 +24,7 @@ return ()=> window.addEventListener('scroll',scrollActive)},[active])
               return <NavLink key={navLink.id}{...navLink} />;
             })}
           </div>
+          
           <button className='py-3 px-6 font-bold text-sm border border-solid rounded-lg border-gray'>Sign Up</button>
           {toggle && (<div className='fixed h-full w-96 top-0 left-0 z-20 bg-Teal text-white flex flex-col justify-center items-center shadow-lg gap-8 py-8 '>
             {navLinks.map(navLink => {
