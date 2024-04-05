@@ -52,21 +52,25 @@ export const categories = [
     id: 1,
     icon: <FiPenTool />,
     category: "Design",
+    href:"/video"
   },
   {
     id: 2,
     icon: <FaLaptopCode />,
     category: "Development",
+    href:"/video"
   },
   {
     id: 3,
     icon: <BsBarChartLine />,
     category: "Business",
+    href:"/video"
   },
   {
     id: 4,
     icon: <MdOutlineScience />,
     category: "Science",
+    href:"/video"
   },
 ];
 

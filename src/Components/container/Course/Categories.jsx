@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Categories = ({ icon, category }) => {
+const Categories = ({ icon, category ,href}) => {
   const item = {
     hidden: { y: 20, opacity: 0 },
     visible: { y: 0, opacity: 1 },
@@ -14,7 +14,7 @@ const Categories = ({ icon, category }) => {
     >
       <div className="text-4xl text-Teal">{icon}</div>
       <div>{category}</div>
-      <a href="" className="text-sm text-gray">
+      <a href={href} className="text-sm text-gray">
         View More
       </a>
     </motion.div>

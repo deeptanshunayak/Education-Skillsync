@@ -1,18 +1,17 @@
-import {Navbar,Home,About,Contact,Teacher,Footer,Course} from "./Components/index"
-
+import { Route,Routes } from "react-router-dom"
+import Page1 from "./Page1"
+import Video from "./Video"
 function App() {
   
 
   return (
-   <div className="font-Poppins bg-Solitude">
-    <Navbar/>
-    <Home/>
-    <About/>
-    <Course/>
-    <Teacher/>
-    <Contact/>
-    
-    <Footer/>
+   <div>
+    <switch>
+      <Routes>
+      <Route path='/' Component={Page1}/>
+      <Route path='/video' Component={Video}/>
+      </Routes>
+    </switch>
     
    </div>
   )
