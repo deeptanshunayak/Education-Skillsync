@@ -13,10 +13,7 @@ const Teacher = () => {
             Our Platform
           </div>
           <p className="text-sm leading-7 text-gray mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-            perferendis debitis dolorum facilis culpa, quidem voluptate suscipit
-            deserunt. Magni neque at eos dolore dignissimos fugit repudiandae?
-            Aut laudantium asperiores et!
+          we've created a dynamic and interactive environment designed to empower educators like yourself with the tools, resources, and support needed to inspire learning and foster academic excellence. Whether you're looking for engaging lesson plans, collaborative teaching opportunities, or professional development courses, our platform has it all.
           </p>
           <a href="https://forms.visme.co/formsPlayer/jwoe3peg-untitled-project">
           <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
@@ -33,10 +30,7 @@ const Teacher = () => {
             Our Platform
           </div>
           <p className="text-sm leading-7 text-gray mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-            perferendis debitis dolorum facilis culpa, quidem voluptate suscipit
-            deserunt. Magni neque at eos dolore dignissimos fugit repudiandae?
-            Aut laudantium asperiores et!
+          We are thrilled to extend an invitation to you to join our innovative teaching platform! As a passionate educator dedicated to nurturing young minds, we believe that you'll find our platform to be an invaluable resource in your teaching journey.
           </p>
           <a href="https://forms.visme.co/formsPlayer/jwoe3peg-untitled-project">
           <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">

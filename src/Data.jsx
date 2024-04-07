@@ -43,7 +43,7 @@ export const navLinks = [
   {
     id: 5,
     href: "contact",
-    link: "Contact",
+    link: "Feedback",
   },
 ];
 

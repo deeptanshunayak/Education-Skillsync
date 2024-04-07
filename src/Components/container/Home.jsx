@@ -33,8 +33,7 @@ const Home = () => {
             This is <br /> the new way <br /> to learn online
           </div>
           <p className="text-sm leading-7 text-gray max-w-sm">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
-            officia sit vitae quo, eum similique?
+          Education is the passport to the future, for tomorrow belongs to those who prepare for it today.
           </p>
           <div className="mt-6">
             <a href="https://forms.visme.co/formsPlayer/n08jevkn-untitled-project">

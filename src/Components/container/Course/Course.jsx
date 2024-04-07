@@ -27,10 +27,7 @@ const Course = () => {
           Our Top <span className="text-Teal">Categories</span>
         </div>
         <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-          tempora illo laborum ex cupiditate tenetur doloribus non velit atque
-          amet repudiandae ipsa modi numquam quas odit optio, totam voluptate
-          sit! Lorem ipsum dolor sit amet.
+        Whether you're looking to enhance your professional skills, explore new hobbies, or expand your knowledge in a particular field, we have a wide selection of courses to choose from. Here's a glimpse of our course categories:
         </p>
       </div>
       <motion.div

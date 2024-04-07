@@ -14,14 +14,9 @@ const About = () => {
             <span className="text-Teal">online courses</span>
           </div>
           <p className="text-sm text-gray leading-7 mb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repudiandae, totam earum. Minus deleniti repellat id! Ratione quia
-            eum, explicabo quos eos magni vel corporis voluptatibus, inventore
-            doloremque aliquam pariatur recusandae.
+          Skill Sync is based on formalized learning, it is provided through electronic devices such as computers, tablets, and even cellular phones that are connected to the internet. This makes it easy for users to learn anytime, anywhere, with few, if any, restrictions. Basically, Skill Sync is training, learning, or education delivered online through a computer or any other digital device.
           </p>
-          <button className="py-3 px-6 text-sm border border-solid border-gray rounded-lg font-bold">
-            Know More
-          </button>
+         
         </div>
       </div>
     </div>
