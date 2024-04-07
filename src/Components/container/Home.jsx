@@ -42,9 +42,11 @@ const Home = () => {
               Get Started
             </button>
             </a>
+            <a href="/Roadmap">
             <button className="px-6 py-3 font-bold border border-solid border-gray rounded-lg text-sm">
               Discover
             </button>
+            </a>
           </div>
         </div>
         <div className="md:w-[60%]">

@@ -18,9 +18,11 @@ const Teacher = () => {
             deserunt. Magni neque at eos dolore dignissimos fugit repudiandae?
             Aut laudantium asperiores et!
           </p>
+          <a href="https://forms.visme.co/formsPlayer/jwoe3peg-untitled-project">
           <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
             Start Teaching
           </button>
+          </a>
         </div>
         <div className="p-4 md:w-3/4 sm:row-start-1">
           <img src={teacher1} alt="" />
@@ -36,9 +38,11 @@ const Teacher = () => {
             deserunt. Magni neque at eos dolore dignissimos fugit repudiandae?
             Aut laudantium asperiores et!
           </p>
+          <a href="https://forms.visme.co/formsPlayer/jwoe3peg-untitled-project">
           <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
             Get Started
           </button>
+          </a>
         </div>
         <div className="p-4 md:w-3/4">
           <img src={teacher2} alt="" />
