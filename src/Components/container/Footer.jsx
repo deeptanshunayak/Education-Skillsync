@@ -19,8 +19,7 @@ const Footer = () => {
         <div>
           <div className="font-bold mb-6">Get Started</div>
           <p className="text-sm leading-7">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo neque
-            saepe cumque. Veritatis sunt commodi
+          Skill Sync is based on formalized learning, it is provided through electronic devices such as computers, tablets, and even cellular phones that are connected to the internet. This makes it easy for users to learn anytime, anywhere, with few, if any, restrictions.
           </p>
         </div>
         <div>
@@ -37,7 +36,7 @@ const Footer = () => {
               Science
             </a>
             <a href="" className="text-sm hover:underline">
-              Digital Marketing
+              Business
             </a>
           </div>
         </div>
@@ -60,7 +59,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="font-bold mb-6">Follow us</div>
-          <div className="text-sm mb-4">skillexlearning@gmail.com</div>
+          <div className="text-sm mb-4">skillsync@gmail.com</div>
           <div className="text-sm">+959883271929</div>
           <div className="flex gap-4 mt-4">
             <a href="" className="hover:scale-110 text-xl">

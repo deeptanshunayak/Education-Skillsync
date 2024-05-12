@@ -15,6 +15,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import {auth} from "../src/firebase";
 import { useNavigate } from "react-router-dom";
 import { signInWithEmailAndPassword } from 'firebase/auth';
+import Swal from 'sweetalert2'
 function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
@@ -50,11 +51,9 @@ export default function Signin() {
    
    
     console.log(values);
-    signInWithEmailAndPassword(auth,values.email,values.pass).then((res)=>{
-      console.log(res);
-     
-      navigate('/');
-    }).catch((err)=>{console.log(err)});
+    signInWithEmailAndPassword(auth,values.email,values.pass)
+    navigate("/");
+    Swal.fire("You have sucessfully sign in!");
 
   };
 

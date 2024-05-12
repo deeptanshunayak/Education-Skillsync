@@ -4,6 +4,7 @@ import striver from '../src/assets/striver.png'
 import harry from '../src/assets/Harry.png'
 import python from '../src/assets/python.png'
 import simp from '../src/assets/simplified.png'
+import web from '../src/assets/web.png'
 export default function Video() {
   return (
     <div className='font-Poppins bg-Solitude'>
@@ -64,11 +65,11 @@ export default function Video() {
         </div>
         <div className='py-5'>
             <div className='rounded overflow-hidden shadow-lg max-w-sm'>
-                <img src={babbar} alt='course' className='w-full'></img>
+                <img src={web} alt='course' className='w-full'></img>
                 <div className='px-6 py-4'>
-                    <div className='font-bold text-xl mb-2'>Dsa in C++</div>
+                    <div className='font-bold text-xl mb-2'>Web Development</div>
                     <p className='text-gray-600 pb-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolor voluptatibus eaque iure quasi, nisi eius error, laboriosam corporis </p>
-                    <button className='button-34'>Apply</button>
+                    <button className='button-34'><a href='https://youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n&si=-_87pQQt7Jv6c5ue'>Apply</a></button>
                 </div>
             </div>
         </div>

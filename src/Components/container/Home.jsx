@@ -43,7 +43,7 @@ const Home = () => {
             </a>
             <a href="/Roadmap">
             <button className="px-6 py-3 font-bold border border-solid border-gray rounded-lg text-sm">
-              Discover
+              Roadmaps
             </button>
             </a>
           </div>
